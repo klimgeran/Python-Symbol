@@ -84,4 +84,3 @@ print(response.status, response.reason)
 # Verification
 hash = facade.hash_transaction(aggregate)
 print('http://ngl-dual-001.symbolblockchain.io:3000/transactionStatus/' + str(hash))
-
